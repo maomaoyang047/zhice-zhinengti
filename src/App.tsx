@@ -106,6 +106,16 @@ export default function App() {
                   <p className="text-neutral-500 text-sm leading-relaxed mb-4">
                     基于固定业务场景的 AI 智能解读，提供标准化数据洞察。
                   </p>
+                  <div className="space-y-2 mb-4">
+                    <div className="bg-neutral-50 p-3 rounded-lg border border-neutral-100">
+                      <span className="block text-xs font-bold text-neutral-900 mb-1">案例</span>
+                      <p className="text-sm text-neutral-600">财务主题的AI财务分析</p>
+                    </div>
+                    <div className="bg-orange-50 p-3 rounded-lg border border-orange-100">
+                      <span className="block text-xs font-bold text-orange-900 mb-1">局限性</span>
+                      <p className="text-sm text-orange-800">分析的内容与场景都是设定好的，无法依据用户需求，自由分析</p>
+                    </div>
+                  </div>
                   <div className="flex items-center gap-2 text-xs font-medium text-neutral-400">
                     <Calendar size={14} /> 2026 Q1 完成
                   </div>
