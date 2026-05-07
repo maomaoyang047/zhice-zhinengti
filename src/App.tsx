@@ -111,44 +111,9 @@ export default function App() {
                       <span className="block text-xs font-bold text-neutral-900 mb-1">案例</span>
                       <p className="text-sm text-neutral-600">财务主题的AI财务分析</p>
                     </div>
-                    <div className="bg-orange-50 p-3 rounded-lg border border-orange-100">
-                      <span className="block text-xs font-bold text-orange-900 mb-1">局限性</span>
-                      <p className="text-sm text-orange-800">分析的内容与场景都是设定好的，无法依据用户需求，自由分析</p>
-                    </div>
                   </div>
                   <div className="flex items-center gap-2 text-xs font-medium text-neutral-400">
                     <Calendar size={14} /> 2026 Q1 完成
-                  </div>
-                </div>
-              </div>
-            </motion.div>
-
-            {/* V2.0 Card */}
-            <motion.div variants={fadeInUp} className="group relative bg-blue-600 p-6 rounded-2xl text-white shadow-xl shadow-blue-200 overflow-hidden">
-               <div className="absolute -bottom-6 -right-6 text-white/10 group-hover:scale-110 transition-transform duration-500">
-                <MessageSquare size={120} />
-              </div>
-              <div className="absolute top-6 right-6 flex items-center gap-2 px-2 py-1 bg-white/20 text-white rounded text-xs font-bold backdrop-blur-sm">
-                <Compass size={12} className="animate-spin" style={{ animationDuration: '8s' }} /> 规划建设
-              </div>
-              <div className="flex items-start gap-4 relative z-10">
-                <div className="mt-1">
-                  <TrendingUp size={28} />
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold mb-1">V2.0：自由对话式数据问答</h3>
-                  <p className="text-blue-100 text-sm leading-relaxed mb-6">
-                    通过自然语言进行自由对话，实时生成动态数据分析报告与可视化图表。
-                  </p>
-                  <div className="space-y-3">
-                    <div className="flex flex-col gap-1">
-                      <span className="text-[10px] font-bold uppercase tracking-widest text-blue-200">Timeline</span>
-                      <div className="flex items-center gap-3">
-                        <div className="px-3 py-1 bg-white text-blue-600 rounded-full text-xs font-bold">5月：通用平台能力</div>
-                        <ArrowRight size={14} className="text-blue-200" />
-                        <div className="px-3 py-1 bg-white/20 rounded-full text-xs font-bold">6月：人资智能体复用</div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
